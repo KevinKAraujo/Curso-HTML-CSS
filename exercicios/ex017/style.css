@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*
+Medidas absolutas
+cm, mm, in, px, pt, pc
+
+Medidas Relativas
+em, ex, rem, vw, vh, %
+
+16px geralemnte = 1em
+2em = ao dobro de 16px
+
+todas essas são medidas para mexer nas fontes.
+*/
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h1{
+    /* shorthand font
+    -font-style -> font- weight -> font-size -> font family
+    shothand é o nome dado para abreviar um conjunto de caracteristicas em uma tag, temos o exemplo a a baixo de 4 caracteriticas em 4 linhas diferentes, podemos usar todas elas em uma unica linha e uma unica declaração.
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style:italic;
+    */
+
+    font: italic bolder 3em 'Arial', sans-serif;
+}
